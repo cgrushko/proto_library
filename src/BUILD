@@ -1,13 +1,3 @@
-
-# Conventions:
-# 1. One proto_library rule per .proto file.
-# 2. A file named foo.proto will be in a rule named foo_proto.
-proto_library(
-    name = "person_proto",
-    srcs = ["person.proto"],
-    deps = [":address_proto"],
-)
-
 # Convention:
 # A java_proto_library that wraps a proto_library named foo_proto
 # should be called foo_java_proto.
@@ -35,6 +25,15 @@ java_proto_library(
 cc_proto_library(
     name = "person_cc_proto",
     deps = [":person_proto"],
+)
+
+# Conventions:
+# 1. One proto_library rule per .proto file.
+# 2. A file named foo.proto will be in a rule named foo_proto.
+proto_library(
+    name = "person_proto",
+    srcs = ["person.proto"],
+    deps = [":address_proto"],
 )
 
 proto_library(
