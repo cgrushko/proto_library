@@ -30,7 +30,7 @@ http_archive(
 # which is the JavaLite proto runtime (base classes and common utilities).
 http_archive(
     name = "com_google_protobuf_javalite",
-    urls = ["https://github.com/google/protobuf/archive/82809aaebf24fca3c2d5611149c78a3625bd3b70.zip"],
-    strip_prefix = "protobuf-82809aaebf24fca3c2d5611149c78a3625bd3b70",
-    sha256 = "75105f312cefd8aa5e0bdf29279dc8ef0a6f862362b321d35b1ed5c08ce2ecfb",
+    urls = ["https://github.com/google/protobuf/archive/45ff30697af6590a927c73584351f2670768f719.zip"],
+    strip_prefix = "protobuf-45ff30697af6590a927c73584351f2670768f719",
+    sha256 = "2244bc5077087be2e5ca8fab9cb4b614443b572cedd83a01d773d3c6c971635c",
 )
