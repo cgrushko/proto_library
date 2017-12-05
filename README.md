@@ -20,4 +20,4 @@ Target //src:person_java_proto up-to-date:
   bazel-genfiles/src/person_proto-descriptor-set.proto.bin
 ```
 
-_Tested with Bazel 0.5.4._
+_Tested with Bazel 0.8.0._
