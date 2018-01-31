@@ -1,5 +1,5 @@
-  bazel-bin
-  bazel-genfiles
-  bazel-out
-  bazel-proto_library
-  bazel-testlogs
+bazel-bin
+bazel-genfiles
+bazel-out
+bazel-proto_library
+bazel-testlogs
