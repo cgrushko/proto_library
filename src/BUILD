@@ -1,3 +1,7 @@
+load("@rules_cc//cc:defs.bzl", "cc_library")
+load("@rules_java//java:defs.bzl", "java_library")
+load("@rules_proto//proto:defs.bzl", "proto_library")
+
 # Convention:
 # A java_proto_library that wraps a proto_library named foo_proto
 # should be called foo_java_proto.
